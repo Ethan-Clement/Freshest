@@ -1,0 +1,77 @@
+html, body {
+    width: 100%
+    padding: 0px;
+    margin: 0px;
+    background-color: #000;
+}
+h1 {
+    font-size: 60px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: whitesmoke;
+}
+h2{
+    font-family: "Noto Sans JP", sans-serif;
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+h3 {
+    font-family: "Noto Sans JP", sans-serif;
+    color: whitesmoke
+}
+h4 {
+    font-family: "Noto Sans JP", sans-serif;
+    color: whitesmoke
+}
+p {
+    font-family: "Noto Sans JP", sans-serif;
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#toppage {
+    background-image: url("green-vegetables-on-brown-wooden-chopping-board-3952047.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+#row1 {
+    display: flex;
+    background-color: black;
+}
+#row2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(37, 37, 37);
+}
+#row3 {
+    display: flex;
+    background-color: rgb(70, 70, 70);
+}
+.items {
+    flex-grow: 1;
+}
+.image {
+    width: 700px
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+#sfbar {
+    width: 100%;
+    height: 2px;
+    background-color: whitesmoke;
+    margin: 0px 40px;
+}
+#bfbar {
+    margin: auto;
+    width: 50%;
+    height: 2px;
+    background-color: whitesmoke;
+}
+#fresh {
+    text-align: center;
+    margin-top: 200px;
+}
